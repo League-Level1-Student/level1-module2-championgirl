@@ -15,7 +15,7 @@ public class SeaCreature {
 
 	private String name;
 
-	SeaCreature(String name) {
+public SeaCreature(String name) {
 		this.name = name;
 	}
 
