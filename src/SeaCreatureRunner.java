@@ -8,9 +8,49 @@ public class SeaCreatureRunner {
 
 SeaCreature Spongebob = new SeaCreature("Spongebob");
 	
-	
+Spongebob.eat();
+
+Spongebob.laugh();
+
+SeaCreature Squidward = new SeaCreature("Squidward");
+
+SeaCreature Patrick = new SeaCreature("Patrick");
+
+
+System.out.println("Squidward");
+
+System.out.println("Patrick");
+
+
+Patrick.eat();
+
+Squidward.eat();
+
+Patrick.laugh();
+
+Squidward.laugh();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	}
-
-
-	
 }
