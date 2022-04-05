@@ -31,13 +31,23 @@ public class Smurf {
 	// Papa Smurf wears a red hat, all the others are white.
 	public String getHatColor() {
 		// 3. Fill in this method
-		return "";
+		if(name =="papa") {
+		return "Papa is wearing a red hat.";
+		}
+		else {
+			return "Their hat is white.";
+		}
 	}
 
 	// Smurfette is the only female Smurf.
 	public String isGirlOrBoy() {
 		// 4. Fill in this method
-		return "";
+		if(name =="papa") {
+			return "Papa is a boy.";
+			}
+			else {
+				return "Smurfette is a girl";
+			}
 	}
 
 }
