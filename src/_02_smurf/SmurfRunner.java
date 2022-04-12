@@ -19,13 +19,13 @@ public class SmurfRunner {
 
 		// PapaSmurf
 		System.out.println(papa.getName());
-	papa.getHatColor();
-		papa.isGirlOrBoy();
+	System.out.println(papa.getHatColor());
+	System.out.println(papa.isGirlOrBoy());	
 
 		// Smurfette
 		System.out.println(smurfette.getName());
-		smurfette.getHatColor();
-		smurfette.isGirlOrBoy();
+		System.out.println(smurfette.getHatColor());
+		System.out.println(smurfette.isGirlOrBoy());	
 
 	}
 
