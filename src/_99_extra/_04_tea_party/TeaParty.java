@@ -3,20 +3,26 @@ package _99_extra._04_tea_party;
 public class TeaParty {
 
 	public String welcome(String name, boolean isWoman, boolean isKnighted) {
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-return null;
+
+		if (isWoman && !isKnighted) {
+			return "Hello Ms. " + name;
+		}
+
+		 if(isWoman&&isKnighted) {
+			 return "Hello Lady " + name;
+		 }
+		 
+		 
+		 if(isMan&&!isKnighted) {
+			 return "Hello Mr. " + name;
+		 }
+		 
+		 
+		 if(isMan&&isKnighted) {
+			 return "Hello Sir " + name;
+		 }
+
+		return null;
 	}
 
 }
