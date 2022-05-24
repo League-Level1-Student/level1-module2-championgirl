@@ -13,12 +13,12 @@ public class TeaParty {
 		 }
 		 
 		 
-		 if(isMan&&!isKnighted) {
+		 if(!isWoman&&!isKnighted) {
 			 return "Hello Mr. " + name;
 		 }
 		 
 		 
-		 if(isMan&&isKnighted) {
+		 if(!isWoman&&isKnighted) {
 			 return "Hello Sir " + name;
 		 }
 
